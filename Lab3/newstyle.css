@@ -1,9 +1,12 @@
-body{ 
+@media screen and (min-width: 480px) {
+    body{ 
     font-family: arial, sans-serif;
     padding: 20px;
     color: blanchedalmond;
     background-color: lemonchiffon;
 }
+}
+
 nav{
     font-weight: bold;
     color: azure;

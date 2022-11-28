@@ -1,6 +1,6 @@
 body{ 
     font-family: arial, sans-serif;
-    padding: 2em;
+    padding: 2px;
     color: blanchedalmond;
     background-color: lemonchiffon;
 }
@@ -9,25 +9,27 @@ nav{
     color: azure;
     border: 5px solid beige;
     text-align: center;
-    width: 10em;
+    width: 10px;
     background-color: gainsboro;
 }
 nav ul{
-    top: 5em;
-    left: 5em;
-    width: 15em;
-    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 15px;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 nav:hover ul{
     display: block;
 }
 nav ul li{
     background: fixed;
-    margin: 10em;
-    width: 10em;
-    position: absolute;
+    margin: 10px;
+    width: 10px;
+    position: relative;
     border-top: 2px solid beige;
-    width: 10em;
+    width: 10px;
     color: black;
 }
 nav ul li:hover{

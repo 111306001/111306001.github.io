@@ -7,7 +7,7 @@ body{
 nav{
     font-weight: bold;
     color: azure;
-    border: 5px solid beige;
+    border: 5px solid blue;
     text-align: center;
     width: 100px;
     background-color: gainsboro;
@@ -29,13 +29,13 @@ nav ul li{
     background: fixed;
     margin: 10px;
     width: 10px;
+    padding: 10px;
+    border-right: 5px;
     position: relative;
-    border-top: 25px solid beige;
-    width: 10px;
     color: black;
 }
 nav ul li:hover{
-    background-color: lightgoldenrodyellow;
+    background-color: blanchedalmond;
 }
 a{
     text-decoration: none;

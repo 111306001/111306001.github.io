@@ -3,42 +3,76 @@
     font-size: 18px;
     background-color: lightpink;
     line-height: 36px;
+    }
+    form{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fonttype{
+        color: cadetblue;
+    }
+    #size{
+        width: 100px;
+        height: 50px;
+        float: left;
+        margin: 0 0 20px 10px;
+    }
+    #float2{
+        float: left;
+        width: 50%;
+    }
+    #float3{
+        float: right;
+        width: 50%;
+    }
+    
+    .width1{
+        width: 90%;
+    }
+    .width2{
+        width: 80%;
+    }
+    .width3{
+        width: 80%;
+    }
+    
 }
 @media print{
     body{
         font-size: 18px;
         background-color: lightgoldenrodyellow;
         line-height: 36px;
-}
-}
-form{
-    margin-left: auto;
-    margin-right: auto;
-}
-.fonttype{
-    color: cadetblue;
-}
-#size{
-    width: 100px;
-    height: 50px;
-    float: left;
-    margin: 0 0 20px 10px;
-}
-#float2{
-    float: left;
-    width: 50%;
-}
-#float3{
-    float: right;
-    width: 50%;
-}
-
-.width1{
-    width: 90%;
-}
-.width2{
-    width: 80%;
-}
-.width3{
-    width: 80%;
+    }
+    form{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fonttype{
+        color: cadetblue;
+    }
+    #size{
+        width: 100px;
+        height: 50px;
+        float: left;
+        margin: 0 0 20px 10px;
+    }
+    #float2{
+        float: left;
+        width: 50%;
+    }
+    #float3{
+        float: right;
+        width: 50%;
+    }
+    
+    .width1{
+        width: 90%;
+    }
+    .width2{
+        width: 80%;
+    }
+    .width3{
+        width: 80%;
+    }
+    
 }

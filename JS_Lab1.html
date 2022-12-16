@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS_Lab1</title>
+</head>
+<body>
+    <script>
+        var input1;
+        input1 = window.prompt("Please enter first integer.");
+        var input2;
+        input2 = window.prompt("Please enter second integer.");
+        if(input1 == input2){
+            document.write('secondInput == firstInput');
+            document.body.style.backgroundColor = 'lightyellow';
+        }
+        else if(input1 > input2){
+            document.write('firstInput > secondInput');
+            document.body.style.backgroundColor = 'lightblue';
+        }
+        else{
+            document.write('secondInput > firstInput');
+            document.body.style.backgroundColor = 'lightgreen';
+        }
+        
+    </script>
+    <p>
+        <input type="button"  value="1st button" onclick="alert(input1)">
+        <input type="button"  value="2st button" onclick="alert(input2)">
+    </p>
+</body>
+</html>

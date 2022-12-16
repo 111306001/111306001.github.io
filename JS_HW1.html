@@ -11,7 +11,10 @@
         var rand = Math.floor((Math.random()*10)+1);
         while(input != rand){
             input = window.prompt("Please enter a number between 1 and 10.");
+            window.alert("Wrong, try again");
         }
+        document.write(rand);
+        
     </script>
 </body>
 </html>

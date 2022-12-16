@@ -12,15 +12,15 @@
         var input2;
         input2 = window.prompt("Please enter second integer.");
         if(input1 == input2){
-            document.write('secondInput == firstInput');
+            document.write('input1 == input2');
             document.body.style.backgroundColor = 'lightyellow';
         }
         else if(input1 > input2){
-            document.write('firstInput > secondInput');
+            document.write('input1 > input2');
             document.body.style.backgroundColor = 'lightblue';
         }
-        else{
-            document.write('secondInput > firstInput');
+        else if(input1 < input2){
+            document.write('input2 > input1');
             document.body.style.backgroundColor = 'lightgreen';
         }
         

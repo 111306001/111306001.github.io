@@ -7,13 +7,17 @@
 </head>
 <body>
     <script>
-        var input = window.prompt("Please enter a number between 1 and 10.");
         var rand = Math.floor((Math.random()*10)+1);
-        while(input != rand){
-            input = window.prompt("Please enter a number between 1 and 10.");
-            window.alert("Wrong, try again");
+            while(input != rand){
+            var input = window.prompt("Please enter a number between 1 and 10.");
+            
+            if(input != rand){
+                window.alert("Wrong, try again");  
+            }
+            else{
+                document.write('Answer is ' + rand);
+            }
         }
-        document.write(rand);
         
     </script>
 </body>

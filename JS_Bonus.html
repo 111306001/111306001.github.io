@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS_Bonus</title>
+</head>
+<body>
+    <div id="result"></div>
+
+    <script>
+        var text = window.prompt("input data");
+        var char = window.prompt("input a char to search");
+        let result1 = text.indexOf(char);
+        let result2 = text.lastIndexOf(char);
+        let result3 = text.indexOf(char,3);
+
+        document.getElementById("result").innerHTML = result1 + "<br>" + result2 + "<br>" + result3;
+        //document.getElementById("result").innerHTML = result2;
+        //document.getElementById("result").innerHTML = result3;
+    </script>
+
+</body>
